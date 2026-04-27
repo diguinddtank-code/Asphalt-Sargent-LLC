@@ -65,7 +65,7 @@ export default function Testimonials() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-10">
           
           <div className="text-center md:text-left max-w-2xl">
-            <h2 className="text-orange-500 font-bold tracking-widest uppercase mb-4 flex items-center justify-center md:justify-start gap-2">
+            <h2 className="text-yellow-400 font-bold tracking-widest uppercase mb-4 flex items-center justify-center md:justify-start gap-2">
               <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-5 h-5">
                 <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
                 <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
@@ -117,13 +117,13 @@ export default function Testimonials() {
         
         <div className="flex w-max animate-scroll group hover:[animation-play-state:paused] gap-6 px-4">
           {duplicatedReviews.map((review, idx) => (
-            <div key={idx} className="w-[320px] md:w-[380px] bg-neutral-900/80 backdrop-blur-sm p-6 rounded-2xl shadow-sm border border-neutral-800 flex flex-col hover:shadow-[0_0_20px_rgba(249,115,22,0.15)] hover:-translate-y-1 transition-all duration-300 relative shrink-0 select-none cursor-default group/card">
+            <div key={idx} className="w-[320px] md:w-[380px] bg-neutral-900/80 backdrop-blur-sm p-6 rounded-2xl shadow-sm border border-neutral-800 flex flex-col hover:shadow-[0_0_20px_rgba(250,204,21,0.15)] hover:-translate-y-1 transition-all duration-300 relative shrink-0 select-none cursor-default group/card">
                
                <div className="flex justify-between items-start mb-4">
                  <div className="flex items-center gap-3">
                    <div className="w-10 h-10 rounded-full overflow-hidden bg-neutral-800 flex-shrink-0">
                      <Image 
-                       src={`https://ui-avatars.com/api/?name=${encodeURIComponent(review.name)}&background=111111&color=f97316`} 
+                       src={`https://ui-avatars.com/api/?name=${encodeURIComponent(review.name)}&background=111111&color=facc15`} 
                        alt={review.name}
                        width={40} height={40} className="w-full h-full object-cover" 
                      />
@@ -172,17 +172,17 @@ export default function Testimonials() {
 
       {/* 3. CTA BLOCK COM GRADIENTE */}
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20">
-        <div className="relative bg-gradient-to-br from-orange-600 to-neutral-900 rounded-3xl p-8 md:p-12 overflow-hidden shadow-2xl border border-orange-500/20">
+        <div className="relative bg-gradient-to-br from-yellow-500 to-neutral-900 rounded-3xl p-8 md:p-12 overflow-hidden shadow-2xl border border-yellow-400/20">
           
           {/* Blur circular solto no topo direito */}
-          <div className="absolute -top-24 -right-24 w-64 h-64 bg-orange-400 opacity-30 rounded-full blur-3xl pointer-events-none"></div>
+          <div className="absolute -top-24 -right-24 w-64 h-64 bg-yellow-300 opacity-30 rounded-full blur-3xl pointer-events-none"></div>
 
           <div className="relative z-10 flex flex-col md:flex-row items-center justify-between gap-8">
              <div className="text-center md:text-left max-w-xl">
                 <h4 className="text-3xl md:text-5xl font-sans font-black uppercase text-white mb-4 tracking-tight leading-none">
                   Ready for a <span className="text-neutral-900 drop-shadow-sm">Solid</span> Surface?
                 </h4>
-                <p className="text-orange-100 text-lg font-medium">
+                <p className="text-yellow-50 text-lg font-medium">
                   Join hundreds of satisfied business owners and homeowners locally. 
                   Secure your project timeline today.
                 </p>
@@ -190,8 +190,8 @@ export default function Testimonials() {
 
              <div className="flex flex-col sm:flex-row gap-4 items-center relative">
                 {/* Badge Desktop apenas */}
-                <div className="hidden lg:flex absolute -top-12 -left-6 bg-neutral-950 border border-neutral-800 text-orange-500 px-4 py-2 rounded-full items-center gap-2 animate-pulse shadow-xl z-20">
-                    <div className="w-2 h-2 bg-orange-500 rounded-full"></div>
+                <div className="hidden lg:flex absolute -top-12 -left-6 bg-neutral-950 border border-neutral-800 text-yellow-400 px-4 py-2 rounded-full items-center gap-2 animate-pulse shadow-xl z-20">
+                    <div className="w-2 h-2 bg-yellow-400 rounded-full"></div>
                     <span className="font-bold text-xs tracking-widest uppercase">A+ Quality</span>
                 </div>
 

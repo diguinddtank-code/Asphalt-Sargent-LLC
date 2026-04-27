@@ -13,7 +13,7 @@ import FloatingContact from "@/components/FloatingContact";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-neutral-950 flex flex-col font-body selection:bg-orange-500 selection:text-neutral-950">
+    <div className="min-h-screen bg-neutral-950 flex flex-col font-body selection:bg-yellow-400 selection:text-neutral-950">
       <Navbar />
       
       <main className="flex-grow pt-20">

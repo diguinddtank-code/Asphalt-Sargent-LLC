@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function RootLayout({children}: {children: React.ReactNode}) {
   return (
     <html lang="en" className={`${spaceGrotesk.variable} ${inter.variable} scroll-smooth`}>
-      <body className="font-body bg-neutral-950 text-neutral-50 antialiased selection:bg-orange-500 selection:text-neutral-950" suppressHydrationWarning>
+      <body className="font-body bg-neutral-950 text-neutral-50 antialiased selection:bg-yellow-400 selection:text-neutral-950" suppressHydrationWarning>
         {children}
       </body>
     </html>

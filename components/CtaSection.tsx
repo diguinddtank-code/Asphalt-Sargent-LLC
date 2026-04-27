@@ -4,7 +4,7 @@ import * as motion from "motion/react-client";
 
 export default function CtaSection() {
   return (
-    <section className="py-32 bg-orange-500 relative overflow-hidden">
+    <section className="py-32 bg-yellow-400 relative overflow-hidden">
       <div className="absolute inset-0 bg-asphalt opacity-20 pointer-events-none mix-blend-multiply"></div>
       
       <motion.div 
@@ -26,7 +26,7 @@ export default function CtaSection() {
           <a href="tel:2483514794" className="bg-neutral-950 text-neutral-50 px-10 py-5 font-black uppercase tracking-widest text-lg hover:bg-neutral-900 transition-colors shadow-2xl hover:scale-105 duration-200">
             Call (248) 351-4794
           </a>
-          <a href="#contact" className="bg-transparent border-4 border-neutral-950 text-neutral-950 px-10 py-5 font-black uppercase tracking-widest text-lg hover:bg-neutral-950 hover:text-orange-500 transition-colors shadow-2xl hover:scale-105 duration-200">
+          <a href="#contact" className="bg-transparent border-4 border-neutral-950 text-neutral-950 px-10 py-5 font-black uppercase tracking-widest text-lg hover:bg-neutral-950 hover:text-yellow-400 transition-colors shadow-2xl hover:scale-105 duration-200">
             Get Online Quote
           </a>
         </div>

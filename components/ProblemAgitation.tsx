@@ -20,7 +20,7 @@ export default function ProblemAgitation() {
             transition={{ duration: 0.6 }}
           >
             <h2 className="font-sans text-4xl lg:text-5xl font-bold uppercase tracking-tighter mb-6 leading-tight">
-              An Ugly, Damaged Surface Is <span className="text-orange-500">Costing You</span>
+              An Ugly, Damaged Surface Is <span className="text-yellow-400">Costing You</span>
             </h2>
             <p className="text-xl text-neutral-400 mb-8">
               Ignoring cracks and potholes doesn&apos;t make them go away. It makes them spread deeper, ruining your property&apos;s value and creating serious liabilities.
@@ -35,8 +35,8 @@ export default function ProblemAgitation() {
                 transition={{ duration: 0.5, delay: 0.1 }}
               >
                 <div className="flex-shrink-0 mt-1">
-                  <div className="w-12 h-12 bg-neutral-950 flex justify-center items-center rounded-sm border border-neutral-800 shadow-[2px_2px_0px_rgba(249,115,22,0.3)]">
-                    <TrendingDown className="text-orange-500" size={24} />
+                  <div className="w-12 h-12 bg-neutral-950 flex justify-center items-center rounded-sm border border-neutral-800 shadow-[2px_2px_0px_rgba(250,204,21,0.3)]">
+                    <TrendingDown className="text-yellow-400" size={24} />
                   </div>
                 </div>
                 <div>
@@ -53,8 +53,8 @@ export default function ProblemAgitation() {
                 transition={{ duration: 0.5, delay: 0.2 }}
               >
                 <div className="flex-shrink-0 mt-1">
-                  <div className="w-12 h-12 bg-neutral-950 flex justify-center items-center rounded-sm border border-neutral-800 shadow-[2px_2px_0px_rgba(249,115,22,0.3)]">
-                    <AlertTriangle className="text-orange-500" size={24} />
+                  <div className="w-12 h-12 bg-neutral-950 flex justify-center items-center rounded-sm border border-neutral-800 shadow-[2px_2px_0px_rgba(250,204,21,0.3)]">
+                    <AlertTriangle className="text-yellow-400" size={24} />
                   </div>
                 </div>
                 <div>
@@ -71,8 +71,8 @@ export default function ProblemAgitation() {
                 transition={{ duration: 0.5, delay: 0.3 }}
               >
                 <div className="flex-shrink-0 mt-1">
-                  <div className="w-12 h-12 bg-neutral-950 flex justify-center items-center rounded-sm border border-neutral-800 shadow-[2px_2px_0px_rgba(249,115,22,0.3)]">
-                    <Frown className="text-orange-500" size={24} />
+                  <div className="w-12 h-12 bg-neutral-950 flex justify-center items-center rounded-sm border border-neutral-800 shadow-[2px_2px_0px_rgba(250,204,21,0.3)]">
+                    <Frown className="text-yellow-400" size={24} />
                   </div>
                 </div>
                 <div>
@@ -91,7 +91,7 @@ export default function ProblemAgitation() {
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.7 }}
           >
-            <div className="absolute inset-0 bg-orange-500 -rotate-3 scale-[1.02]"></div>
+            <div className="absolute inset-0 bg-yellow-400 -rotate-3 scale-[1.02]"></div>
             <div className="relative bg-neutral-950 border-2 border-neutral-800 p-8 flex flex-col justify-center">
               <h3 className="font-sans text-3xl font-bold uppercase tracking-tight text-center mb-6">The Asphalt Sargent Fix</h3>
               
@@ -108,16 +108,16 @@ export default function ProblemAgitation() {
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.4, delay: 0.4 + idx * 0.1 }}
-                    className="flex items-center gap-3 text-lg font-medium p-4 bg-neutral-900 border-l-4 border-orange-500 transition-transform hover:translate-x-1"
+                    className="flex items-center gap-3 text-lg font-medium p-4 bg-neutral-900 border-l-4 border-yellow-400 transition-transform hover:translate-x-1"
                   >
-                    <span className="w-6 h-6 rounded-full bg-orange-500/20 text-orange-500 flex justify-center items-center text-sm flex-shrink-0">✓</span>
+                    <span className="w-6 h-6 rounded-full bg-yellow-400/20 text-yellow-400 flex justify-center items-center text-sm flex-shrink-0">✓</span>
                     {item}
                   </motion.li>
                 ))}
               </ul>
               
               <div className="mt-8 text-center bg-neutral-900 py-3 border border-neutral-800">
-                <p className="text-orange-500 uppercase tracking-widest text-sm font-bold animate-pulse">Stop waiting. Start paving.</p>
+                <p className="text-yellow-400 uppercase tracking-widest text-sm font-bold animate-pulse">Stop waiting. Start paving.</p>
               </div>
             </div>
           </motion.div>

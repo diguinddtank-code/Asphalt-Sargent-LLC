@@ -34,7 +34,7 @@ export default function BeforeAfter() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <span className="text-orange-500 font-bold tracking-widest uppercase text-sm mb-4 block">The Evidence</span>
+          <span className="text-yellow-400 font-bold tracking-widest uppercase text-sm mb-4 block">The Evidence</span>
           <h2 className="font-sans text-5xl md:text-6xl font-black uppercase tracking-tighter leading-none mb-6">
             Night & Day <span className="text-neutral-500">Transformations</span>
           </h2>
@@ -55,7 +55,7 @@ export default function BeforeAfter() {
             >
               <div className="text-center mb-8">
                 <h3 className="font-sans text-3xl font-bold uppercase tracking-tight text-neutral-50">{project.title}</h3>
-                <p className="text-orange-500 font-medium uppercase tracking-widest text-sm mt-2">{project.location}</p>
+                <p className="text-yellow-400 font-medium uppercase tracking-widest text-sm mt-2">{project.location}</p>
               </div>
 
               <div className="grid md:grid-cols-2 gap-8 md:gap-0">
@@ -77,10 +77,10 @@ export default function BeforeAfter() {
                   viewport={{ once: true }}
                   transition={{ type: "spring", stiffness: 60, delay: 0.4 + idx * 0.2 }}
                 >
-                  <div className="absolute top-4 right-4 z-10 bg-orange-500 text-neutral-950 font-black uppercase tracking-widest px-4 py-2 text-sm shadow-xl">
+                  <div className="absolute top-4 right-4 z-10 bg-yellow-400 text-neutral-950 font-black uppercase tracking-widest px-4 py-2 text-sm shadow-xl">
                     After
                   </div>
-                  <div className="relative aspect-video border-[6px] border-orange-500 md:border-l-[6px] md:rounded-r-lg overflow-hidden shadow-[0_0_40px_rgba(249,115,22,0.15)]">
+                  <div className="relative aspect-video border-[6px] border-yellow-400 md:border-l-[6px] md:rounded-r-lg overflow-hidden shadow-[0_0_40px_rgba(250,204,21,0.15)]">
                     <Image src={project.afterImage} alt={`After ${project.title}`} fill className="object-cover hover:scale-105 transition-transform duration-1000" referrerPolicy="no-referrer" />
                   </div>
                 </motion.div>

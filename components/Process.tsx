@@ -22,7 +22,7 @@ export default function Process() {
           transition={{ duration: 0.6 }}
         >
           <h2 className="font-sans text-5xl md:text-6xl font-black uppercase tracking-tighter leading-none mb-6">
-            Our Battle <span className="text-orange-500">Strategy</span>
+            Our Battle <span className="text-yellow-400">Strategy</span>
           </h2>
           <p className="text-xl text-neutral-400">
             Three simple steps to totally upgrade your property&apos;s exterior. We handle the heavy lifting so you don&apos;t have to stress.
@@ -32,7 +32,7 @@ export default function Process() {
         <div className="grid md:grid-cols-3 gap-8">
           
           <motion.div 
-            className="bg-neutral-950 border border-neutral-800 p-8 relative group hover:border-orange-500 transition-colors shadow-lg hover:-translate-y-2 duration-300"
+            className="bg-neutral-950 border border-neutral-800 p-8 relative group hover:border-yellow-400 transition-colors shadow-lg hover:-translate-y-2 duration-300"
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -40,7 +40,7 @@ export default function Process() {
           >
             <span className="absolute -top-6 -right-6 text-8xl font-sans font-black text-neutral-800/50 group-hover:text-neutral-800 transition-colors z-0">01</span>
             <div className="relative z-10">
-              <div className="w-16 h-16 bg-neutral-900 flex items-center justify-center border border-neutral-700 mb-8 mt-4 group-hover:bg-orange-500 group-hover:text-neutral-950 transition-colors">
+              <div className="w-16 h-16 bg-neutral-900 flex items-center justify-center border border-neutral-700 mb-8 mt-4 group-hover:bg-yellow-400 group-hover:text-neutral-950 transition-colors">
                 <FileSearch size={32} />
               </div>
               <h3 className="font-sans text-2xl font-bold uppercase tracking-tight mb-4">Request Estimate</h3>
@@ -49,7 +49,7 @@ export default function Process() {
           </motion.div>
 
           <motion.div 
-            className="bg-neutral-950 border border-neutral-800 p-8 relative group hover:border-orange-500 transition-colors shadow-lg hover:-translate-y-2 duration-300"
+            className="bg-neutral-950 border border-neutral-800 p-8 relative group hover:border-yellow-400 transition-colors shadow-lg hover:-translate-y-2 duration-300"
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -57,7 +57,7 @@ export default function Process() {
           >
             <span className="absolute -top-6 -right-6 text-8xl font-sans font-black text-neutral-800/50 group-hover:text-neutral-800 transition-colors z-0">02</span>
             <div className="relative z-10">
-              <div className="w-16 h-16 bg-neutral-900 flex items-center justify-center border border-neutral-700 mb-8 mt-4 group-hover:bg-orange-500 group-hover:text-neutral-950 transition-colors">
+              <div className="w-16 h-16 bg-neutral-900 flex items-center justify-center border border-neutral-700 mb-8 mt-4 group-hover:bg-yellow-400 group-hover:text-neutral-950 transition-colors">
                 <Calculator size={32} />
               </div>
               <h3 className="font-sans text-2xl font-bold uppercase tracking-tight mb-4">On-Site Evaluation</h3>
@@ -66,16 +66,16 @@ export default function Process() {
           </motion.div>
 
           <motion.div 
-            className="bg-neutral-950 border border-orange-500 p-8 relative group shadow-[0_0_30px_rgba(249,115,22,0.1)] hover:shadow-[0_0_40px_rgba(249,115,22,0.2)] transition-all hover:-translate-y-2 duration-300"
+            className="bg-neutral-950 border border-yellow-400 p-8 relative group shadow-[0_0_30px_rgba(250,204,21,0.1)] hover:shadow-[0_0_40px_rgba(250,204,21,0.2)] transition-all hover:-translate-y-2 duration-300"
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.3 }}
           >
             <div className="absolute inset-0 bg-warning-stripes opacity-10"></div>
-            <span className="absolute -top-6 -right-6 text-8xl font-sans font-black text-neutral-800/50 group-hover:text-orange-500/20 transition-colors z-0">03</span>
+            <span className="absolute -top-6 -right-6 text-8xl font-sans font-black text-neutral-800/50 group-hover:text-yellow-400/20 transition-colors z-0">03</span>
             <div className="relative z-10">
-              <div className="w-16 h-16 bg-orange-500 text-neutral-950 flex items-center justify-center border border-orange-400 mb-8 mt-4">
+              <div className="w-16 h-16 bg-yellow-400 text-neutral-950 flex items-center justify-center border border-yellow-300 mb-8 mt-4">
                 <Drum size={32} />
               </div>
               <h3 className="font-sans text-2xl font-bold uppercase tracking-tight mb-4">Execution</h3>

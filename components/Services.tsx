@@ -44,12 +44,12 @@ export default function Services() {
           transition={{ duration: 0.6 }}
         >
           <div className="max-w-2xl">
-            <span className="text-orange-500 font-bold tracking-widest uppercase text-sm mb-4 block">Our Arsenal</span>
+            <span className="text-yellow-400 font-bold tracking-widest uppercase text-sm mb-4 block">Our Arsenal</span>
             <h2 className="font-sans text-5xl md:text-6xl font-black uppercase tracking-tighter leading-none">
               Hardscapes Built <br/><span className="text-neutral-500">To Outlast</span>
             </h2>
           </div>
-          <a href="#contact" className="inline-flex items-center gap-2 text-orange-500 font-bold uppercase tracking-wider hover:text-orange-400 transition-colors bg-orange-500/10 px-6 py-3 border border-orange-500/20">
+          <a href="#contact" className="inline-flex items-center gap-2 text-yellow-400 font-bold uppercase tracking-wider hover:text-yellow-300 transition-colors bg-yellow-400/10 px-6 py-3 border border-yellow-400/20">
             Request Service <ArrowUpRight size={20} />
           </a>
         </motion.div>
@@ -58,7 +58,7 @@ export default function Services() {
           {services.map((service, index) => (
             <motion.div 
               key={service.id} 
-              className="group flex flex-col bg-neutral-900 border border-neutral-800 hover:border-orange-500 transition-colors shadow-xl"
+              className="group flex flex-col bg-neutral-900 border border-neutral-800 hover:border-yellow-400 transition-colors shadow-xl"
               initial={{ opacity: 0, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -72,14 +72,14 @@ export default function Services() {
                   className="object-cover transition-transform duration-700 group-hover:scale-105" 
                   referrerPolicy="no-referrer"
                 />
-                <div className="absolute top-4 left-4 bg-orange-500 text-neutral-950 font-sans font-bold text-2xl px-3 py-1 leading-none shadow-[2px_2px_0px_rgba(0,0,0,1)]">
+                <div className="absolute top-4 left-4 bg-yellow-400 text-neutral-950 font-sans font-bold text-2xl px-3 py-1 leading-none shadow-[2px_2px_0px_rgba(0,0,0,1)]">
                   {service.id}
                 </div>
               </div>
               
               <div className="p-8 flex flex-col flex-grow relative bg-neutral-900 overflow-hidden">
-                <div className="absolute bottom-0 right-0 w-32 h-32 bg-orange-500/5 blur-3xl rounded-full"></div>
-                <h3 className="font-sans text-2xl font-bold uppercase tracking-tight mb-4 group-hover:text-orange-500 transition-colors relative z-10">
+                <div className="absolute bottom-0 right-0 w-32 h-32 bg-yellow-400/5 blur-3xl rounded-full"></div>
+                <h3 className="font-sans text-2xl font-bold uppercase tracking-tight mb-4 group-hover:text-yellow-400 transition-colors relative z-10">
                   {service.title}
                 </h3>
                 <p className="text-neutral-400 mb-6 flex-grow relative z-10">{service.description}</p>
@@ -87,12 +87,12 @@ export default function Services() {
                 <ul className="space-y-2 mb-8 border-t border-neutral-800 pt-6 relative z-10">
                   {service.features.map((feature, idx) => (
                     <li key={idx} className="flex items-start gap-2 text-sm text-neutral-300 uppercase tracking-wide font-medium">
-                      <span className="text-orange-500 mt-0.5">■</span> {feature}
+                      <span className="text-yellow-400 mt-0.5">■</span> {feature}
                     </li>
                   ))}
                 </ul>
 
-                <a href="#contact" className="mt-auto block w-full text-center border-2 border-neutral-800 hover:border-orange-500 py-4 font-bold uppercase tracking-widest text-sm transition-all group-hover:bg-orange-500 group-hover:text-neutral-950 group-hover:shadow-[0_0_20px_rgba(249,115,22,0.4)] relative z-10">
+                <a href="#contact" className="mt-auto block w-full text-center border-2 border-neutral-800 hover:border-yellow-400 py-4 font-bold uppercase tracking-widest text-sm transition-all group-hover:bg-yellow-400 group-hover:text-neutral-950 group-hover:shadow-[0_0_20px_rgba(250,204,21,0.4)] relative z-10">
                   Select Service
                 </a>
               </div>

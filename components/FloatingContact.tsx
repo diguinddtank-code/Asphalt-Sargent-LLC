@@ -28,7 +28,7 @@ export default function FloatingContact() {
     >
       <a 
         href="tel:2483514794" 
-        className="group flex items-center justify-center gap-3 bg-orange-500 text-neutral-950 px-6 py-4 rounded-full shadow-[0_10px_30px_rgba(249,115,22,0.3)] hover:bg-orange-400 hover:scale-105 transition-all outline outline-4 outline-transparent hover:outline-orange-500/30"
+        className="group flex items-center justify-center gap-3 bg-yellow-400 text-neutral-950 px-6 py-4 rounded-full shadow-[0_10px_30px_rgba(250,204,21,0.3)] hover:bg-yellow-300 hover:scale-105 transition-all outline outline-4 outline-transparent hover:outline-yellow-400/30"
       >
         <Phone size={24} className="fill-current" />
         <span className="font-bold uppercase tracking-widest text-sm hidden md:inline">Call (248) 351-4794</span>

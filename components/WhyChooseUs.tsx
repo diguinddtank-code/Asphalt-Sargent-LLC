@@ -26,7 +26,7 @@ export default function WhyChooseUs() {
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: 0.2 }}
               >
-                <div className="relative h-64 shadow-[8px_8px_0px_0px_rgba(249,115,22,1)] overflow-hidden group">
+                <div className="relative h-64 shadow-[8px_8px_0px_0px_rgba(250,204,21,1)] overflow-hidden group">
                   <Image src="https://picsum.photos/seed/crew1/600/800" alt="Construction crew" fill className="object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700" referrerPolicy="no-referrer" />
                 </div>
                 <div className="relative h-48 border border-neutral-800 overflow-hidden group">
@@ -50,7 +50,7 @@ export default function WhyChooseUs() {
             </div>
             {/* Floating Trust Badge */}
             <motion.div 
-              className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-orange-500 text-neutral-950 p-6 shadow-2xl z-10 flex flex-col items-center justify-center rounded-sm border-4 border-neutral-950"
+              className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-yellow-400 text-neutral-950 p-6 shadow-2xl z-10 flex flex-col items-center justify-center rounded-sm border-4 border-neutral-950"
               initial={{ scale: 0, x: "-50%", y: "-50%", rotate: -10 }}
               whileInView={{ scale: 1, x: "-50%", y: "-50%", rotate: 0 }}
               viewport={{ once: true }}
@@ -68,12 +68,12 @@ export default function WhyChooseUs() {
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.7 }}
           >
-            <span className="text-orange-500 font-bold tracking-widest uppercase text-sm mb-4 block">No Shortcuts</span>
+            <span className="text-yellow-400 font-bold tracking-widest uppercase text-sm mb-4 block">No Shortcuts</span>
             <h2 className="font-sans text-4xl lg:text-6xl font-black uppercase tracking-tighter leading-none mb-8">
               Why <span className="text-neutral-500">Local Owners</span> Choose Us
             </h2>
             
-            <p className="text-lg text-neutral-400 mb-10 border-l-4 border-orange-500 pl-4">
+            <p className="text-lg text-neutral-400 mb-10 border-l-4 border-yellow-400 pl-4">
               We didn&apos;t last 20 years in Southfield by cutting corners. We do the job right the first time, using commercial-grade materials and battle-tested crews.
             </p>
 
@@ -91,7 +91,7 @@ export default function WhyChooseUs() {
                   viewport={{ once: true }}
                   transition={{ duration: 0.4, delay: 0.3 + idx * 0.1 }}
                 >
-                  <item.icon className="text-orange-500 mb-4" size={32} />
+                  <item.icon className="text-yellow-400 mb-4" size={32} />
                   <h3 className="font-sans text-xl font-bold uppercase tracking-tight mb-2">{item.title}</h3>
                   <p className="text-neutral-400 text-sm">{item.desc}</p>
                 </motion.div>
@@ -99,7 +99,7 @@ export default function WhyChooseUs() {
             </div>
             
             <div className="mt-12">
-              <a href="#contact" className="inline-flex items-center justify-center bg-orange-500 hover:bg-orange-400 text-neutral-950 px-8 py-4 font-bold uppercase tracking-widest text-sm transition-all transform hover:-translate-y-1 shadow-[4px_4px_0px_0px_rgba(255,255,255,0.1)] hover:shadow-[6px_6px_0px_0px_rgba(255,255,255,0.2)]">
+              <a href="#contact" className="inline-flex items-center justify-center bg-yellow-400 hover:bg-yellow-300 text-neutral-950 px-8 py-4 font-bold uppercase tracking-widest text-sm transition-all transform hover:-translate-y-1 shadow-[4px_4px_0px_0px_rgba(255,255,255,0.1)] hover:shadow-[6px_6px_0px_0px_rgba(255,255,255,0.2)]">
                 Get a Fast Quote
               </a>
             </div>
