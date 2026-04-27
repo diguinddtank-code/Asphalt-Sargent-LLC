@@ -15,7 +15,7 @@ const duplicatedBanner = [...conversionItems, ...conversionItems, ...conversionI
 
 export default function Hero() {
   return (
-    <section className="relative w-full min-h-[calc(100vh-5rem)] flex flex-col items-center justify-start lg:justify-center pt-10 sm:pt-16 lg:py-20 pb-24 sm:pb-32 overflow-hidden">
+    <section className="relative w-full min-h-[calc(101vh-5rem)] flex flex-col items-center justify-start pt-10 sm:pt-16 lg:pt-12 pb-24 sm:pb-32 lg:pb-40 overflow-hidden">
       {/* Background with Overlay */}
       <div className="absolute inset-0 z-0 bg-neutral-950">
         <Image
