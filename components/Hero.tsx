@@ -15,7 +15,7 @@ const duplicatedBanner = [...conversionItems, ...conversionItems, ...conversionI
 
 export default function Hero() {
   return (
-    <section className="relative w-full min-h-[calc(101vh-5rem)] flex flex-col items-center justify-start pt-10 sm:pt-16 lg:pt-12 pb-24 sm:pb-32 lg:pb-40 overflow-hidden">
+    <section className="relative w-full min-h-[calc(101vh-5rem)] flex flex-col items-center justify-start pt-10 sm:pt-16 lg:pt-4 pb-24 sm:pb-32 lg:pb-32 overflow-hidden">
       {/* Background with Overlay */}
       <div className="absolute inset-0 z-0 bg-neutral-950">
         <Image
@@ -89,7 +89,7 @@ export default function Hero() {
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
-          className="hidden lg:block relative flex-1 w-full max-w-[300px] xl:max-w-xl"
+          className="hidden lg:block relative flex-1 w-full max-w-[300px] xl:max-w-xl lg:-translate-y-12"
         >
           {/* Aesthetic brutalist accent frame */}
           <div className="absolute inset-0 bg-yellow-400 translate-x-4 translate-y-4"></div>
